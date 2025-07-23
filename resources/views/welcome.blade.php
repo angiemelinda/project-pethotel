@@ -11,11 +11,6 @@
     </style>
 </head>
 <body class="bg-gray-50 min-h-screen flex flex-col relative overflow-hidden">
-    <!-- Background Gambar -->
-    <div class="absolute inset-0 w-full h-full -z-10">
-        <img src="pets.jpg" alt="Dog and Cat" class="w-full h-full object-cover object-center select-none pointer-events-none" style="filter: brightness(0.7) blur(1px);" loading="lazy">
-        <div class="absolute inset-0 bg-gradient-to-b from-white/80 via-white/60 to-white/80"></div>
-    </div>
     <div class="flex flex-col items-center justify-center flex-1 min-h-screen px-4">
         <div class="w-full max-w-2xl bg-white/90 rounded-3xl shadow-2xl border border-blue-100 p-8 md:p-12 flex flex-col items-center relative overflow-hidden z-10 backdrop-blur-sm">
             <div class="absolute -top-10 -right-10 w-40 h-40 bg-gradient-to-br from-blue-100 via-blue-50 to-yellow-50 rounded-full opacity-60 z-0"></div>
